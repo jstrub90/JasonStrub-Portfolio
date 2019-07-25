@@ -1,8 +1,30 @@
+main {
+  background-color: gray;
+}
+section {
+  background-color: gray;
+}
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color:gray;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: rgba(0,0,0,0.4);
+}
+footer {
+  background-color: #343a40!important;
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+.text-muted {
+  color: black!important;
 }
 @media (min-width: 768px) {
   .jumbotron {
